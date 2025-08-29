@@ -9,9 +9,10 @@
 
 ## Resumen
 
+<p align="justify">
 Chatbot Universitario es un proyecto en Python que permite a los estudiantes obtener **respuestas automáticas a preguntas frecuentes** mediante procesamiento de lenguaje natural (NLP).\
 El bot utiliza **TF-IDF** y **spaCy** para identificar la pregunta más similar en su banco de datos y responde de manera precisa. Además, ofrece **sugerencias dinámicas** y detecta preguntas desconocidas para guiar al usuario.
-
+</p>
 ---
 
 ## Características
@@ -47,12 +48,13 @@ El bot utiliza **TF-IDF** y **spaCy** para identificar la pregunta más similar 
 
 ## Estructura del proyecto
 
-- **`/data/Data_chatbot`** → Banco de preguntas y respuestas
-- **`/notebooks/Chatbot_pruebas.ipynb`** → Versión de prueba con NLTK
-- **`/src/utils.py`** → Preprocesamiento y vectorización
-- **`/src/app.py`** → Lógica principal del bot
-- **`/src/app.py`** → Interfaz Gradio
-- **`requirements.txt`** → Dependencias
+- **`data/Data_chatbot`** → Banco de preguntas y respuestas.
+- **`notebooks/Chatbot_pruebas.ipynb`** → Versión de prueba con NLTK.
+- **`src/utils.py`** → Preprocesamiento y vectorización.
+- **`src/app.py`** → Lógica principal del bot.
+- **`src/app.py`** → Interfaz Gradio.
+- **`Interfaz/Ejemplo.png`** → Imagen de la interfaz del ChatBot.
+- **`requirements.txt`** → Dependencias.
 
 ---
 
@@ -84,5 +86,6 @@ El bot utiliza **TF-IDF** y **spaCy** para identificar la pregunta más similar 
 ## Captura de pantalla principal
 
 ![Interfaz del Chat](Interfaz/Ejemplo.png)
+
 
 

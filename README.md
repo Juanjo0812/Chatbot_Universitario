@@ -1,8 +1,8 @@
 # Chatbot Universitario
 
-[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.10-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Gradio](https://img.shields.io/badge/Gradio-5.44-green.svg)](https://gradio.app/)
-[![spaCy](https://img.shields.io/badge/spaCy-3.8.7-09A3D5.svg?logo=python&logoColor=white)](https://spacy.io/)
+[![spaCy](https://img.shields.io/badge/spaCy-3.8.7-09A3D5.svg)](https://spacy.io/)
 
 
 ---
@@ -46,17 +46,13 @@ El bot utiliza **TF-IDF** y **spaCy** para identificar la pregunta más similar 
 ---
 
 ## Estructura del proyecto
-.
-├── data/
-│   └── Data_bot.csv          # Banco de preguntas y respuestas
-├── notebooks/
-│   └── experimentacion.ipynb # Versión de prueba con NLTK
-├── src/
-│   ├── utils.py              # Preprocesamiento y vectorización
-│   ├── chatbot.py            # Lógica principal del bot
-│   └── app.py                # Interfaz Gradio
-├── requirements.txt          # Dependencias
-└── README.md                 # Documentación
+
+- **`/data/Data_chatbot`** → Banco de preguntas y respuestas
+- **`/notebooks/Chatbot_pruebas.ipynb`** → Versión de prueba con NLTK
+- **`/src/utils.py`** → Preprocesamiento y vectorización
+- **`/src/app.py`** → Lógica principal del bot
+- **`/src/app.py`** → Interfaz Gradio
+- **`requirements.txt`** → Dependencias
 
 ---
 
@@ -88,4 +84,5 @@ El bot utiliza **TF-IDF** y **spaCy** para identificar la pregunta más similar 
 ## Captura de pantalla principal
 
 ![Interfaz del Chat](Interfaz/Ejemplo.png)
+
 

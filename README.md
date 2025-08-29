@@ -28,7 +28,7 @@ El bot utiliza **TF-IDF** y **spaCy** para identificar la pregunta más similar 
 ## Instalación y ejecución
 
 ### 1. Clonar el repositorio
-  git clone https://github.com/Juanjo0812/Chatbot_Universitario.git
+  git clone https://github.com/Juanjo0812/Chatbot_Universitario.git\
   cd Chatbot_Universitario
 
 ### 2. Crear y activar entorno virtual
@@ -82,3 +82,4 @@ El bot utiliza **TF-IDF** y **spaCy** para identificar la pregunta más similar 
 
 ## Captura de pantalla principal
 
+![Interfaz del Chat](Interfaz/Ejemplo.png)

@@ -1,8 +1,9 @@
 # Chatbot Universitario
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
-[![Gradio](https://img.shields.io/badge/Gradio-4.9-green.svg)](https://gradio.app/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Gradio](https://img.shields.io/badge/Gradio-5.44-green.svg)](https://gradio.app/)
+[![spaCy](https://img.shields.io/badge/spaCy-3.8.7-09A3D5.svg?logo=python&logoColor=white)](https://spacy.io/)
+
 
 ---
 
@@ -27,8 +28,8 @@ El bot utiliza **TF-IDF** y **spaCy** para identificar la pregunta más similar 
 ## Instalación y ejecución
 
 ### 1. Clonar el repositorio
-  git clone <URL_DEL_REPOSITORIO>
-  cd <NOMBRE_DEL_REPOSITORIO>
+  git clone https://github.com/Juanjo0812/Chatbot_Universitario.git
+  cd Chatbot_Universitario
 
 ### 2. Crear y activar entorno virtual
   python -m venv venv
@@ -80,3 +81,4 @@ El bot utiliza **TF-IDF** y **spaCy** para identificar la pregunta más similar 
 
 
 ## Captura de pantalla principal
+

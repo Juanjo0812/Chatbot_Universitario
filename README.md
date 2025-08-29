@@ -13,6 +13,7 @@
 Chatbot Universitario es un proyecto en Python que permite a los estudiantes obtener **respuestas automáticas a preguntas frecuentes** mediante procesamiento de lenguaje natural (NLP).\
 El bot utiliza **TF-IDF** y **spaCy** para identificar la pregunta más similar en su banco de datos y responde de manera precisa. Además, ofrece **sugerencias dinámicas** y detecta preguntas desconocidas para guiar al usuario.
 </p>
+
 ---
 
 ## Características
@@ -86,6 +87,7 @@ El bot utiliza **TF-IDF** y **spaCy** para identificar la pregunta más similar 
 ## Captura de pantalla principal
 
 ![Interfaz del Chat](Interfaz/Ejemplo.png)
+
 
 
 

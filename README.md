@@ -9,7 +9,7 @@
 
 ## Resumen
 
-Chatbot Universitario es un proyecto en Python que permite a los estudiantes obtener **respuestas automáticas a preguntas frecuentes** mediante procesamiento de lenguaje natural (NLP).  
+Chatbot Universitario es un proyecto en Python que permite a los estudiantes obtener **respuestas automáticas a preguntas frecuentes** mediante procesamiento de lenguaje natural (NLP).\
 El bot utiliza **TF-IDF** y **spaCy** para identificar la pregunta más similar en su banco de datos y responde de manera precisa. Además, ofrece **sugerencias dinámicas** y detecta preguntas desconocidas para guiar al usuario.
 
 ---
@@ -28,7 +28,7 @@ El bot utiliza **TF-IDF** y **spaCy** para identificar la pregunta más similar 
 ## Instalación y ejecución
 
 ### 1. Clonar el repositorio
-  git clone https://github.com/Juanjo0812/Chatbot_Universitario.git\
+  git clone https://github.com/Juanjo0812/Chatbot_Universitario.git \
   cd Chatbot_Universitario
 
 ### 2. Crear y activar entorno virtual
@@ -42,6 +42,8 @@ El bot utiliza **TF-IDF** y **spaCy** para identificar la pregunta más similar 
 
 ### 4. Ejecutar la aplicación
   python src/app.py
+  
+---
 
 ## Estructura del proyecto
 .
@@ -56,6 +58,7 @@ El bot utiliza **TF-IDF** y **spaCy** para identificar la pregunta más similar 
 ├── requirements.txt          # Dependencias
 └── README.md                 # Documentación
 
+---
 
 ## Notas importantes
 
@@ -64,22 +67,25 @@ El bot utiliza **TF-IDF** y **spaCy** para identificar la pregunta más similar 
 - El chatbot tiene un umbral de similitud para detectar preguntas desconocidas.
 - Las sugerencias se generan aleatoriamente cada vez que se presiona el botón.
 
+---
 
 ## Ejemplos de uso
 
-1. Pregunta directa
-  Usuario: "¿Cuál es el horario de la biblioteca?"
+1. Pregunta directa\
+  Usuario: "¿Cuál es el horario de la biblioteca?"\
   Bot: "La biblioteca está abierta de lunes a viernes de 7:00 a 19:00."
 
-2. Uso de sugerencia
-  Usuario hace click en "Requisitos para inscribirse en la universidad".
+2. Uso de sugerencia\
+  Usuario hace click en "Requisitos para inscribirse en la universidad".\
   Bot devuelve la respuesta correspondiente automáticamente.
 
-3. Pregunta desconocida
-  Usuario: "¿Cuándo empieza la temporada de fútbol?"
+3. Pregunta desconocida\
+  Usuario: "¿Cuándo empieza la temporada de fútbol?"\
   Bot: "No entendí tu pregunta, ¿puedes reformularla?"
 
+---
 
 ## Captura de pantalla principal
 
 ![Interfaz del Chat](Interfaz/Ejemplo.png)
+
